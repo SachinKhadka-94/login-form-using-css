@@ -1,0 +1,283 @@
+* {
+    margin: 0px;
+    font-family: "Poppins", serif;
+}
+
+/* left content */
+.outermost-div {
+    position: relative;
+    /* background: rgba(0, 0, 0, 0.235); */
+    /* opacity:0.2; */
+    height: 1038px;
+    width: 1386px;
+}
+
+.imagediv {
+    position: absolute;
+    /* background: rgba(0, 217, 255, 0.344); */
+    width: 826.85px;
+    height: 1038px;
+}
+
+.formcontent-div {
+    position: absolute;
+    /* background: rgba(255, 0, 230, 0.24); */
+    width: 454.77px;
+    height: 793.71px;
+    top: 245px;
+    right: 54px;
+}
+
+.left-image {
+    height: 1038px;
+    width: 826.85px;
+}
+
+.left-img-text-div {
+    position: absolute;
+    /* background: #fade0871; */
+    width: 618.07px;
+    height: 901.15px;
+    z-index: 10;
+    margin-top: 70px;
+    margin-left: 80px;
+}
+
+.left-img-text-div1 {
+    position: absolute;
+    /* background: #0885fa59; */
+    width: 193.28px;
+    height: 60.82px;
+    text-align: left;
+
+    font-size: 40px;
+    font-weight: 700;
+    color: #FFFFFF;
+    letter-spacing: 2%;
+    text-align: left;
+}
+
+.left-img-text-div2 {
+    position: absolute;
+    /* background: #fa080859; */
+    width: 618.07px;
+    height: 198.68px;
+    top: 380px;
+    font-size: 32px;
+    font-weight: 500;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.left-img-text-div3 {
+    position: absolute;
+    /* background: #fa080859; */
+    width: 223.25px;
+    height: 48.66px;
+    top: 851px;
+}
+
+.left-img-name-bottom-div1 {
+    /* background: #274e3459; */
+    /* width:223.25px;
+    height:48.66px;
+    top: 851px; */
+    font-weight: normal;
+    /* font-style: normal; */
+    color: #FFFFFF;
+    font-size: 20px;
+    letter-spacing: 2%;
+    text-align: left;
+}
+
+.left-img-name-bottom-div2 {
+    /* background: #274e3459; */
+    color: #FFFFFF;
+    font-size: 16px;
+    letter-spacing: 2%;
+    text-align: left;
+    font-weight: 500;
+
+}
+
+
+
+
+/* right content */
+
+.header{
+    /* position: absolute; */
+    height: 72px;
+    /* background:rgba(98, 0, 255, 0.154); */
+}
+
+.header-1{
+  
+    /* background:rgba(255, 0, 0, 0.422); */
+    font-size: 32px;
+    letter-spacing:2%;
+    color: #000000;
+    text-align: left;
+    font-weight:500;
+
+}
+.headerfortext{
+    /* background:rgba(234, 255, 0, 0.422); */
+    font-size: 36px;
+    color:#8D8D8D;
+    font-size:16px;
+    font-weight:300;
+    text-align: left;
+    letter-spacing:2%;
+
+}
+
+.formcontent{
+    position: absolute;
+    /* background: #c90a0a41; */
+    width:440px;
+    height: 459px;
+    top:150px;
+    left:8px;
+}
+
+.rightdivforminfo{
+    /* background: #059fb64c; */
+    width:440px;
+    height:240px;
+}
+
+.formcontentname{
+    width: 440px;
+    height:60px;
+    /* background: #0bd21f5b; */
+}
+
+.formcontentemail{
+    position: absolute;
+    width: 440px;
+    height:60px;
+    /* background: #0b90d25b; */
+    top:90px;
+    
+}
+
+.formcontentpass{
+    position: absolute;
+    width: 440px;
+    height:60px;
+    /* background: #890bd25b; */
+    top:180px;
+}
+.formslabel{
+    font-size:16px;
+    font-weight: 400;
+    color: #000000;
+    letter-spacing:2%;
+
+    
+}
+.inputtypetext{
+    width:440px;
+    border-bottom:1px solid black;
+}
+.inputtypeemail{
+    width: 440px;
+    border-bottom:1px solid black;
+}
+.inputtypepass{
+    width: 440px;
+    border-bottom:1px solid black;
+}
+.forbuttons{
+    position: absolute;
+    /* background: #29088c6c; */
+    width:435px;
+    height: 150px;
+    top:310px;
+    left: 3px;
+}
+
+.createbutton{
+    width: 435px;
+    height: 65px;
+    background: #000000;
+    letter-spacing:2%;
+    font-size:20px;
+    font-weight: 500;
+    color: #FFFFFF;
+    border-radius:20px;
+    letter-spacing: 2%;
+    border:none;
+
+}
+
+.googlelogo{
+    position: absolute;
+    width: 23.83px;
+    height:24.22px;
+    /* background: #87080890; */
+    left:79px;
+    top: 20px;
+
+}
+
+.buttonforsignupinside{
+    position: absolute;
+    text-decoration: none;
+    border-radius:20px;
+    background:white;
+    font-size:20px;
+    color: #000000;
+    /* border:none; */
+    font-weight:500;
+    letter-spacing:2%;
+    top: 86px;
+    padding-left:110px;
+    padding-right: 112px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border:1px solid #8D8D8D;
+    margin-left:3px;
+
+;
+
+}
+
+.foralreadyhaveaccount{
+    /* background: #7703035f; */
+    position: absolute;
+    top:270px;
+    left:60px;
+    letter-spacing:2%;
+    font-size:mixed;
+    font-weight:mixed;
+}
+
+.pforsignin{
+    text-decoration: none;
+    color:#3EC1F3;
+}
+
+
+
+input[type=text],input[type=email],input[type=password]{
+    border:none;
+}
+
+
+.createbutton:hover{
+    background-color:#000000a4;
+    cursor:pointer;
+    box-shadow:2px 2px 5px 1px rgba(0, 0, 0, 0.175);
+
+}
+
+.buttonforsignupinside:hover{
+    background-color:rgb(231, 231, 231);
+    cursor:pointer;
+    box-shadow:2px 2px 5px 1px rgba(0, 0, 0, 0.175);
+
+}
+
+
