@@ -1,7 +1,13 @@
 * {
-    margin: 0px;
-    font-family: "Poppins", serif;
+    margin-top:0px;
+    margin-left:0px;
 }
+
+body{
+    background-color:#FFFFFF;
+}
+
+
 
 /* left content */
 .outermost-div {
@@ -10,6 +16,9 @@
     /* opacity:0.2; */
     height: 1038px;
     width: 1386px;
+    top:130px;
+    font-family: "Poppins", serif;
+
 }
 
 .imagediv {
@@ -217,7 +226,7 @@
     width: 23.83px;
     height:24.22px;
     /* background: #87080890; */
-    left:79px;
+    left:69px;
     top: 20px;
 
 }
@@ -233,7 +242,7 @@
     font-weight:500;
     letter-spacing:2%;
     top: 86px;
-    padding-left:110px;
+    padding-left:100px;
     padding-right: 112px;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -261,8 +270,10 @@
 
 
 
-input[type=text],input[type=email],input[type=password]{
+.username,input[type=email],input[type=password]{
     border:none;
+    width:435px;
+    
 }
 
 
@@ -278,6 +289,213 @@ input[type=text],input[type=email],input[type=password]{
     cursor:pointer;
     box-shadow:2px 2px 5px 1px rgba(0, 0, 0, 0.175);
 
+}
+
+
+
+/* navbar */
+.bodyofnav{
+    position:fixed;
+    /* background-color: #3EC1F3; */
+    width: 1440px;
+    height:144px;
+    /* margin-top: 30px; */
+    /* margin-left: 60px; */
+    font-family:inter;
+    color:#02557A;
+    margin-bottom:0px;
+    z-index:40;
+
+}
+
+.bodyofuppernav{
+    /* background-color: #3ef39866; */
+    background:#FFFFFF;
+    height:80px;
+}
+.bodyofthelogos{
+    position:absolute;
+    /* background-color: #f33ef066; */
+    width:168px;
+    height:24px;
+    left:64px;
+    top:28px;
+}
+.nameofthecompany{
+    position: absolute;
+    /* background: #05c21865; */
+    width:146.06px;
+    height:42.92px;
+    left:647px;
+    top:19px;
+}
+.uppermostnavrightsidelogo{
+    position: absolute;
+    /* background-color: #c63ef34f; */
+    width:96px;
+    height:32px;
+    left:1280px;
+    top:24px;
+    
+}
+.twitterlogo{
+    position: absolute;
+    /* background-color: #f33eba65; */
+    width:24px;
+    height:24px;
+    color:#02557A;
+}
+.facebooklogo{
+    position: absolute;
+    /* background-color: #593ef34f; */
+    width:24px;
+    height:24px;
+    left:48px;
+    color:#FFFFFF;
+    
+}
+.instagramlogo{
+    position: absolute;
+    /* background-color: #413ef366; */
+    width:24px;
+    height:24px;
+    left:96px;
+    color:#FFFFFF;
+
+}
+.youtubelogo{
+    position: absolute;
+    /* background-color: #3ec3f366; */
+    width:24px;
+    height:24px;
+    left:144px;
+    color:#FFFFFF;
+
+}
+
+.addtocartlogo{
+    /* background: #ed07857a; */
+    width:32px;
+    height:32px;
+}
+.menulogo{
+    position: absolute;
+    /* background: #1a14c168; */
+    width:32px;
+    height:32px;
+    left: 64px;
+}
+
+
+/* lowernav */
+.bodyoflowernav{
+    position: relative;
+    /* background: #0f7f38d4; */
+    background:#7194AA;
+    background:#000000;
+    width: 1440px;
+    height:64px;
+    /* position: sticky; */
+}
+.linkoflowerbodyrightside{
+    position: absolute;
+    /* background: #65090987; */
+    /* width: 507px; */
+    height:32px;
+    margin:16px 0px 16px 64px;
+}
+.homelink{
+    /* background: #130abc75; */
+    width: 45px;
+    height:16px;
+    margin: 8px 0px 8px 8px;
+    font-size:16px;
+    font-weight:400;
+    text-decoration: none;
+    /* color:#0977A7; */
+    color: white;
+
+}
+.aboutlink{
+    /* background: #1c884976; */
+    width: 46px;
+    height:16px;
+    margin:8px 0px 8px 40px;
+    font-size:16px;
+    font-weight: 400;
+    text-decoration: none;
+    /* color:#0977A7; */
+    color: white;
+
+
+}
+.serviceslink{
+    /* background: #81881c76; */
+    width: 66px;
+    height:16px;
+    margin:8px 0px 8px 40px;
+    font-size:16px;
+    font-weight:400;
+    text-decoration: none;
+    /* color:#0977A7; */
+    color: white;
+
+
+}
+.termandconditionlink{
+    /* background: #091f8060; */
+    width: 139px;
+    height:16px;
+    margin:8px 0px 8px 40px;
+    font-size: 16px;
+    font-weight:400;
+    text-decoration: none;
+    /* color:#0977A7; */
+    color: white;
+
+
+}
+.helplink{
+    /* background: #0f7f38d4;   */
+    width:35px;
+    height:16px;
+    margin:8px 0px 8px 40px;
+    font-size:16px;
+    font-weight:400;
+    text-decoration: none;
+    /* color:#0977A7; */
+    color: white;
+
+
+}
+
+.lowerbodysearchbar{
+    position: absolute;
+    /* background: #5806cb5c; */
+    width:600px;
+    height:40px;
+    top:12px;
+    left:800px;
+    /* margin:12px 0px 12px 776px; */
+
+}
+.searchbar{
+    width:600px;
+    height:40px;
+    font-size:16px;
+    font-family: inter;
+    font-style:italic;
+    border-radius:4px;
+    background: #edfaff;
+
+}
+.searchicon{
+    position: absolute;
+    /* background: #750b0b46; */
+    top:13px;
+    left:563px;
+    /* height:17px; */
+    /* width:18.5px; */
 }
 
 
